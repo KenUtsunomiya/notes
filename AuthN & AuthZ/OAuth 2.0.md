@@ -42,6 +42,7 @@
 POST /token HTTP/1.1
 Host: authorization-server.com
 Content-Type: application/x-www-form-urlencoded
+
 grant_type=authorization_code&
 code=SplxlOBeZQQYbYS6WxSbIA&
 redirect_uri=https%3A%2F%2Fclient.example.com%2Fcb&
